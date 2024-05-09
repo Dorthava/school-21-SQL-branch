@@ -1,0 +1,1 @@
+UPDATE menu SET price=trim_scale(menu.price-menu.price*0.1) WHERE menu.pizza_name LIKE 'greek pizza'
